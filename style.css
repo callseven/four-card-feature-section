@@ -141,7 +141,7 @@
         /* medias */
         /* DESKTOP */
         
-        @media (min-width:3440px) {
+        @media (min-width:4440px) {
             main {
                 margin-top: 50px;
                 max-width: 325px;

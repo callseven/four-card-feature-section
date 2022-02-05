@@ -6,7 +6,7 @@ Minha solução:
 
 https://callseven.github.io/four-card-feature-section/
 
-![Desktop Mobile](https://user-images.githubusercontent.com/7409421/152618230-d6b79cc6-869f-4756-865d-420aa4f46901.png)
+![Mobile](https://user-images.githubusercontent.com/7409421/152624566-5721633d-06c0-4a82-bd17-c13ef915d76d.png)
 
 ## Bem-vindo! - Welcome! 👋
 
