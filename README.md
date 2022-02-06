@@ -8,6 +8,9 @@ https://callseven.github.io/four-card-feature-section/
 
 ![Mobile](https://user-images.githubusercontent.com/7409421/152624566-5721633d-06c0-4a82-bd17-c13ef915d76d.png)
 
+![Desktop](https://user-images.githubusercontent.com/7409421/152699964-56b45b19-b3c5-43fb-ba45-5e6512b4d4f7.png)
+
+
 ## Bem-vindo! - Welcome! 👋
 
 Desafio para criar uma landing page baseado em um design.

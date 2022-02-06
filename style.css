@@ -159,7 +159,7 @@
                 /* medias */
                 /* DESKTOP */
                 
-                @media (min-width:1200px) {
+                @media (min-width:1400px) {
                     body {
                         display: grid;
                         place-items: center;
@@ -197,7 +197,7 @@
                     }
                     .cards {
                         margin: auto;
-                        width: 100%;
+                        width: 100vw;
                     }
                     .cardcolor {
                         align-items: center;
