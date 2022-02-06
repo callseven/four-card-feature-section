@@ -1,323 +1,292 @@
-        /* github.com/callseven */
-        
-        * {
-            margin: 0;
-        }
-        
-        body {
-            --Red: hsl(0, 78%, 62%);
-            --Cyan: hsl(180, 62%, 55%);
-            --Orange: hsl(34, 97%, 64%);
-            --Blue: hsl(212, 86%, 64%);
-            --VeryDarkBlue: hsl(234, 12%, 34%);
-            --GrayishBlue: hsl(229, 6%, 66%);
-            --VeryLightGray: hsl(0, 0%, 98%);
-            height: 100%;
-            font-family: 'Poppins', sans-serif;
-            font-size: 15px;
-            -webkit-font-smoothing: antialiased;
-        }
-        
-        body {
-            display: grid;
-            place-items: center;
-            background: var(--VeryLightGray);
-            color: var(--VeryDarkBlue);
-        }
-        
-        main {
-            margin-top: 50px;
-            /* max-width: 325px; */
-            /* max-height: 600px; */
-            margin-left: auto;
-            margin-right: auto;
-            /* padding: 0 0 0 24px; */
-            /* text-align: center; */
-            background-color: var(--VerydarkblueCardBG);
-            /* box-shadow: 0px 35px 0px 15px rgba(14, 24, 42, 255); */
-            /* border-radius: 10px; */
-        }
-        
-        h1 {
-            font-size: 1.5rem;
-            font-weight: 100;
-        }
-        
-        .top p:nth-child(2) {
-            font-size: 1.5rem;
-            font-weight: 600;
-        }
-        
-        .top p:nth-child(3) {
-            margin-top: 1.5rem;
-            font-size: .9rem;
-            font-weight: 300;
-            width: 300px;
-        }
-        
-        .top {
-            margin-top: 10px;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            width: 300px;
-        }
-        
-        .cards {
-            margin-top: 8px;
-            margin-left: 0;
-            padding: 20px;
-            border-radius: 10px;
-            width: 300px;
-        }
-        
-        .cardcolor {
-            align-items: center;
-            width: 260px;
-            height: 220px;
-            background: white;
-            box-shadow: 0px 5px 10px 5px rgba(194, 206, 218, 0.352);
-            padding: 0 20px;
-            margin: 30px 0;
-            border-radius: 10px;
-        }
-        
-        .cardcolor p:nth-child(1) {
-            font-weight: 600;
-            font-size: 1.3rem;
-            padding-top: 20px;
-        }
-        
-        .cardcolor p:nth-child(2) {
-            font-size: .8rem;
-            font-weight: 100;
-            padding: 5px 0;
-            line-height: 23px;
-        }
-        
-        .cardcolor:nth-child(1) {
-            border-top: solid 5px var(--Cyan);
-            margin-top: 40px;
-        }
-        
-        .cardcolor>img {
-            width: 55px;
-            height: 55px;
-            margin-top: 23px;
-            margin-left: 200px;
-        }
-        
-        .cardcolor:nth-child(2) {
-            border-top: solid 5px var(--Red);
-            margin-top: 40px;
-        }
-        
-        .cardcolor:nth-child(3) {
-            border-top: solid 5px var(--Orange);
-            margin-top: 40px;
-        }
-        
-        .cardcolor:nth-child(4) {
-            border-top: solid 5px var(--Blue);
-            margin-top: 40px;
-        }
-        
-        a:hover {
-            color: var(--Cyan);
-        }
-        
-        a {
-            text-decoration: none;
-            color: var(--Orange);
-        }
-        
-        footer {
-            color: var(--Blue);
-            padding: 60px 0 30px 0;
-            font-size: 12px;
-        }
-        /* medias */
-        /* DESKTOP */
-        
-        @media (min-width:4440px) {
-            main {
-                margin-top: 50px;
-                max-width: 325px;
-                max-height: 600px;
-                margin-left: auto;
-                margin-right: auto;
-                padding: 0 0 0 24px;
-                /* text-align: center; */
-                background-color: var(--VerydarkblueCardBG);
-                box-shadow: 0px 35px 0px 15px rgba(14, 24, 42, 255);
-                border-radius: 10px;
-            }
-            h1 {
-                font-size: 1.3rem;
-                margin-bottom: 1.0rem;
-                margin-top: 1.0rem;
-                text-align: left;
-            }
-            p {
-                margin-top: 1rem;
-                color: var(--softblue);
-            }
-            .eth {
-                color: var(--Cyan);
-                display: flex;
-                gap: 7px;
-                width: auto;
-                height: 20px;
-            }
-            .eth>img {
-                width: 11px;
-                height: 14px;
-                margin-top: 23px;
-            }
-            .eth p {
-                color: var(--Cyan);
-                font-size: 16px;
-                ;
-                font-weight: 600;
-                width: 100px;
-            }
-            .created {
-                display: flex;
-            }
-            div .clock1 {
-                color: var(--Cyan);
-                display: flex;
-                position: absolute;
-                width: 100px;
-                margin-left: 100px;
-            }
-            .clock>img {
-                width: 16px;
-                height: 16px;
-                margin-left: 195px;
-            }
-            hr {
-                border: 1px solid hsla(220, 38%, 31%, 0.63);
-                width: 300px;
-                margin-top: 25px;
-            }
-            .clock1 p {
-                font-size: 16px;
-                ;
-                font-weight: 500;
-                width: 100px;
-                margin-left: 220px;
-                margin-top: -25px;
-            }
-            .creation a {
-                font-size: 16px;
-                ;
-                font-weight: 500;
-                margin-left: 5px;
-                margin-top: -20px;
-                color: white;
-            }
-            .creation a:hover {
-                color: var(--Cyan);
-            }
-            .creation p {
-                font-size: 16px;
-                ;
-                font-weight: 500;
-                margin-left: 50px;
-                margin-top: 25px;
-                padding-bottom: 40px;
-            }
-            .created>img {
-                width: 40px;
-                margin-top: 0px;
-                border: solid 1px white;
-            }
-            .block {
-                border-radius: 20px;
-                padding: 0px;
-                margin: auto;
-                border-radius: 15px;
-            }
-            .block>img {
-                margin-top: 20px;
-                border-radius: 10px;
-                width: 300px;
-                object-fit: cover;
-            }
-            .blockseg>img {
-                margin-top: -305px;
-                margin-left: 0px;
-                border-radius: 10px;
-                width: 45px;
-                padding: 128px;
-                object-fit: cover;
-                position: absolute;
-                transition: 1s;
-                opacity: 0;
-            }
-            .block :hover {
-                color: var(--Cyan);
-                transition: 1s;
-                cursor: pointer;
-                background-color: hsla(178, 100%, 50%, 0.5);
-                opacity: 100%;
-            }
-            .title {
-                font-size: 18px;
-                font-weight: 600;
-                text-align: left;
-                color: var(--White);
-            }
-            .title a:hover {
-                color: var(--Cyan);
-            }
-            .container {
-                max-width: 450px;
-                margin-left: auto;
-                margin-right: auto;
-                text-align: center;
-                color: var(--grey);
-            }
-            .animation {
-                animation: loading 30s linear infinite;
-            }
-            div .created {
-                background-color: var(--White);
-                border-radius: 50%;
-                width: 30px;
-                height: 30px;
-                overflow: hidden;
-                position: absolute;
-                margin-top: 20px;
-                display: flex;
-            }
-            div .creation {
-                background-color: var(--White);
-                border-radius: 50%;
-                width: 30px;
-                height: 30px;
-                /* overflow: hidden; */
-                position: absolute;
-                margin-top: 20px;
-                margin-left: 400px;
-                display: flex;
-            }
-            div .creation p {
-                margin-left: 400px;
-            }
-            a {
-                color: var(--White);
-                text-decoration: none;
-            }
-            a:hover {
-                color: var(--Cyan);
-            }
-            footer {
-                color: #630f0f;
-                padding: 60px 0 30px 0;
-                font-size: 16px;
-            }
-        }
+                /* github.com/callseven */
+                
+                * {
+                    margin: 0;
+                }
+                
+                body {
+                    --Red: hsl(0, 78%, 62%);
+                    --Cyan: hsl(180, 62%, 55%);
+                    --Orange: hsl(34, 97%, 64%);
+                    --Blue: hsl(212, 86%, 64%);
+                    --VeryDarkBlue: hsl(234, 12%, 34%);
+                    --GrayishBlue: hsl(229, 6%, 66%);
+                    --VeryLightGray: hsl(0, 0%, 98%);
+                    height: 100%;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 15px;
+                    -webkit-font-smoothing: antialiased;
+                }
+                
+                body {
+                    display: grid;
+                    place-items: center;
+                    background: var(--VeryLightGray);
+                    color: var(--VeryDarkBlue);
+                }
+                
+                main {
+                    margin-top: 50px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    background-color: var(--VerydarkblueCardBG);
+                }
+                
+                h1 {
+                    font-size: 1.5rem;
+                    font-weight: 100;
+                }
+                
+                .top p:nth-child(2) {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+                
+                .top p:nth-child(3) {
+                    margin-top: 1.5rem;
+                    font-size: .9rem;
+                    font-weight: 300;
+                    width: 300px;
+                }
+                
+                .top {
+                    margin-top: 10px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 20px;
+                    border-radius: 10px;
+                    text-align: center;
+                    width: 300px;
+                }
+                
+                .cards {
+                    margin-top: 8px;
+                    margin-left: 0;
+                    padding: 20px;
+                    border-radius: 10px;
+                    width: 300px;
+                }
+                
+                .cardcolor {
+                    align-items: center;
+                    width: 260px;
+                    height: 220px;
+                    background: white;
+                    box-shadow: 0px 5px 10px 5px rgba(194, 206, 218, 0.352);
+                    padding: 0 20px;
+                    margin: 30px 0;
+                    border-radius: 10px;
+                }
+                
+                .cardcolor:nth-child(1):hover {
+                    border-top-width: 10px;
+                    transition: ease-in .1s;
+                }
+                
+                .cardcolor:nth-child(2):hover {
+                    border-top-width: 10px;
+                    transition: ease-in .1s;
+                }
+                
+                .cardcolor:nth-child(3):hover {
+                    border-top-width: 10px;
+                    transition: ease-in .1s;
+                }
+                
+                .cardcolor:nth-child(4):hover {
+                    border-top-width: 10px;
+                    transition: ease-in .1s;
+                }
+                
+                .cardcolor p:nth-child(1) {
+                    font-weight: 600;
+                    font-size: 1.3rem;
+                    padding-top: 20px;
+                }
+                
+                .cardcolor p:nth-child(2) {
+                    font-size: .8rem;
+                    font-weight: 100;
+                    padding: 5px 0;
+                    line-height: 23px;
+                }
+                
+                .cardcolor:nth-child(1) {
+                    border-top: solid 5px var(--Cyan);
+                    margin-top: 40px;
+                    transition: ease-out .1s;
+                }
+                
+                .cardcolor>img {
+                    width: 55px;
+                    height: 55px;
+                    margin-top: 23px;
+                    margin-left: 200px;
+                }
+                
+                .cardcolor:nth-child(2) {
+                    border-top: solid 5px var(--Red);
+                    margin-top: 40px;
+                    transition: ease-out .1s;
+                }
+                
+                .cardcolor:nth-child(3) {
+                    border-top: solid 5px var(--Orange);
+                    margin-top: 40px;
+                    transition: ease-out .1s;
+                }
+                
+                .cardcolor:nth-child(4) {
+                    border-top: solid 5px var(--Blue);
+                    margin-top: 40px;
+                    transition: ease-out .1s;
+                }
+                
+                a:hover {
+                    color: var(--Cyan);
+                }
+                
+                a {
+                    text-decoration: none;
+                    color: var(--Orange);
+                }
+                
+                footer {
+                    color: var(--Blue);
+                    padding: 60px 0 30px 0;
+                    font-size: 12px;
+                }
+                /* medias */
+                /* DESKTOP */
+                
+                @media (min-width:1200px) {
+                    body {
+                        display: grid;
+                        place-items: center;
+                        background: var(--VeryLightGray);
+                        color: var(--VeryDarkBlue);
+                    }
+                    main {
+                        margin: auto;
+                        width: 100%;
+                        height: 65vw;
+                    }
+                    h1 {
+                        font-size: 2.28rem;
+                        margin-top: 50px;
+                        text-align: center;
+                    }
+                    .top p:nth-child(2) {
+                        font-size: 2.26rem;
+                        font-weight: 600;
+                        margin-top: -5px;
+                    }
+                    .top p:nth-child(3) {
+                        width: 530px;
+                        text-align: center;
+                        margin: 15px auto;
+                        font-size: .95rem;
+                    }
+                    .top {
+                        margin-top: 10px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding: 20px;
+                        text-align: center;
+                        width: 1000px;
+                    }
+                    .cards {
+                        margin: auto;
+                        width: 100%;
+                    }
+                    .cardcolor {
+                        align-items: center;
+                        width: 280px;
+                        height: 225px;
+                        background: white;
+                        box-shadow: 0px 7px 10px 5px rgba(194, 206, 218, 0.352);
+                        padding: 10px 35px;
+                        margin: 30px 20px;
+                        border-radius: 10px;
+                    }
+                    .cardcolor:hover {
+                        box-shadow: 0px 5px 10px 5px rgba(171, 194, 218, 0.352);
+                    }
+                    .cardcolor p:nth-child(1) {
+                        font-weight: 600;
+                        font-size: 1.25rem;
+                        padding-top: 22px;
+                        padding-bottom: 4px;
+                        margin-top: -3px;
+                    }
+                    .cardcolor p:nth-child(2) {
+                        font-size: .82rem;
+                        font-weight: 100;
+                        padding: 5px 0;
+                        line-height: 23px;
+                    }
+                    .cardcolor:nth-child(1):hover {
+                        border-top-width: 10px;
+                        transition: ease-in .1s;
+                    }
+                    .cardcolor:nth-child(2):hover {
+                        border-top-width: 10px;
+                        transition: ease-in .1s;
+                    }
+                    .cardcolor:nth-child(3):hover {
+                        border-top-width: 10px;
+                        transition: ease-in .1s;
+                    }
+                    .cardcolor:nth-child(4):hover {
+                        border-top-width: 10px;
+                        transition: ease-in .1s;
+                    }
+                    .cardcolor:nth-child(1) {
+                        border-top: solid 5px var(--Cyan);
+                        margin-top: 140px;
+                        margin-left: 100px;
+                        position: absolute;
+                        transition: ease-out .1s;
+                    }
+                    .cardcolor>img {
+                        width: 63px;
+                        height: 63px;
+                        margin-top: 29px;
+                        margin-left: 220px;
+                    }
+                    .cardcolor:nth-child(2) {
+                        border-top: solid 5px var(--Red);
+                        margin-top: 0px;
+                        margin-left: 480px;
+                        position: absolute;
+                        transition: ease-out .1s;
+                    }
+                    .cardcolor:nth-child(3) {
+                        border-top: solid 5px var(--Orange);
+                        margin-top: 280px;
+                        margin-left: 480px;
+                        position: absolute;
+                    }
+                    .cardcolor:nth-child(4) {
+                        border-top: solid 5px var(--Blue);
+                        margin-top: 140px;
+                        position: absolute;
+                        margin-left: 860px;
+                        transition: ease-out .1s;
+                    }
+                    a {
+                        color: var(--Blue);
+                        text-decoration: none;
+                        transition: ease-in-out .2s;
+                    }
+                    a:hover {
+                        color: var(--Cyan);
+                        transition: cubic-bezier(0.95, 0.05, 0.795, 0.035) .3s;
+                    }
+                    footer {
+                        color: #0f3c63;
+                        padding: 60px 0 30px 0;
+                        font-size: 16px;
+                        margin-top: -70px;
+                    }
+                }
